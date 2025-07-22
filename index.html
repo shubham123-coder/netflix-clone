@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix Logo" />
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tvshows.html">TV Shows</a></li>
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="popular.html">New & Popular</a></li>
+      <li><a href="mylist.html">My List</a></li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <div class="fade-bottom"></div>
+    <h1 class="hero-title">The Witcher</h1>
+    <p class="hero-description">Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.</p>
+    <div class="hero-buttons">
+      <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+      <button class="info-btn"><i class="fas fa-info-circle"></i> More Info</button>
+    </div>
+  </section>
+
+  <section class="row">
+    <h2>Trending Now</h2>
+    <div class="row-posters">
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/9z256FFPDsL7kSVJ9oyLELaN1ph.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/1bkp9LFzQ4fLzjKcBMTJUGdRBHc.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/9FBwqcd9IRruEDUrTdcaafOMKUq.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="Movie" />
+    </div>
+  </section>
+
+  <section class="row">
+    <h2>Top Picks for You</h2>
+    <div class="row-posters">
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/uC6TTUhPpQCmgldGyYveKRAu8JN.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/tTlAA0REGPXSZPBfWyTW9ipIv1I.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg" alt="Movie" />
+    </div>
+  </section>
+
+  <section class="row">
+    <h2>Critically Acclaimed</h2>
+    <div class="row-posters">
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/5BwqwxMEjeFtdknRV792Svo0K1v.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/fptnZJbLzKUHeNlYrAynbyoL5YJ.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/hpU2cHC9tk90hswCFEpf5AtbqoL.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg" alt="Movie" />
+    </div>
+  </section>
+
+  <div class="modal" id="infoModal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>The Witcher</h2>
+      <p>Geralt of Rivia is a solitary monster hunter struggling to find his place in a world...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
