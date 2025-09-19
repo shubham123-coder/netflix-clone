@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix Logo" />
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="tvshows.html">TV Shows</a></li>
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="popular.html">New & Popular</a></li>
+      <li><a href="mylist.html">My List</a></li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <h1 class="hero-title">Stranger Things</h1>
+    <p class="hero-description">The narrative begins in 1983 when Will Byers vanishes, prompting his friends, family, and police chief Jim Hopper to search for him, ultimately discovering a portal to the Upside Down and a government conspiracy.</p>
+    <div class="hero-buttons">
+      <a href="playback.html"><button class="play-btn"><i class="fas fa-play"></i> Play</button></a>
+      <button class="info-btn"><i class="fas fa-info-circle"></i> More Info</button>
+    </div>
+  </section>
+
+  <section class="row">
+    <h2>Trending Now</h2>
+    <div class="row-posters">
+      <a href="playback.html"><img class="poster" src="https://image.tmdb.org/t/p/w200/9z256FFPDsL7kSVJ9oyLELaN1ph.jpg" alt="Movie" /></a>
+      <a href="playback.html"><img class="poster" src="https://image.tmdb.org/t/p/w200/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg" alt="Movie" /></a>
+      <img class="poster" src="onepiece.png" alt="Movie" />
+      <a href="playback.html"><img class="poster" src="https://image.tmdb.org/t/p/w200/9FBwqcd9IRruEDUrTdcaafOMKUq.jpg" alt="Movie" /></a>
+      <a href="playback.html"><img class="poster" src="https://image.tmdb.org/t/p/w200/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="Movie" /></a>
+    </div>
+  </section>
+
+  <section class="row">
+    <h2>Top Picks for You</h2>
+    <div class="row-posters">
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg" alt="Movie" />
+      <img class="poster" src="strangerthings.jpeg" alt="Movie" />
+      <img class="poster" src="spidy.jpeg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/tTlAA0REGPXSZPBfWyTW9ipIv1I.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg" alt="Movie" />
+    </div>
+  </section>
+
+  <section class="row">
+    <h2>Critically Acclaimed</h2>
+    <div class="row-posters">
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/5BwqwxMEjeFtdknRV792Svo0K1v.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/fptnZJbLzKUHeNlYrAynbyoL5YJ.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/hpU2cHC9tk90hswCFEpf5AtbqoL.jpg" alt="Movie" />
+      <img class="poster" src="https://image.tmdb.org/t/p/w200/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg" alt="Movie" />
+    </div>
+  </section>
+
+  <div class="modal" id="infoModal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Stranger Things</h2>
+      <p>Stranger Things is a science fiction horror mystery drama series set in the 1980s, centered on the fictional town of Hawkins, Indiana, where a group of young friends uncover supernatural forces and secret government experiments after a mysterious boy's disappearance.
+        The series follows their quest to find answers, which leads them to a parallel dimension known as the Upside Down and a young girl with telekinetic powers named Eleven, who escaped from a government laboratory.
+       
+       The show blends elements of horror, drama, science fiction, and coming-of-age stories, heavily inspired by 1980s pop culture, films, and the works of directors like Steven Spielberg and Stephen King.
+       The narrative begins in 1983 when Will Byers vanishes, prompting his friends, family, and police chief Jim Hopper to search for him, ultimately discovering a portal to the Upside Down and a government conspiracy.
+       The fifth and final season is scheduled for release in November and December 2025, concluding the story with the group facing a final battle against the powerful entity Vecna.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Contact Info -->
+      <p class="footer-top">Questions? Call <a href="tel:000-800-919-1694">000-800-919-1694</a></p>
+  
+      <!-- Footer Links -->
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Legal Notices</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Ways to Watch</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Only on Netflix</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+  
+      <!-- Language Dropdown -->
+      <div class="footer-language">
+        <select>
+          <option value="en">🌐 English</option>
+          <option value="hi">हिन्दी</option>
+        </select>
+      </div>
+  
+      <!-- Bottom Text -->
+      <p class="footer-bottom">Netflix India</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
